@@ -15,7 +15,8 @@ html {
 .game {
     margin-top: 40px;
     margin-left: 10px;
-    width: 900px;
+    max-width: 900px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
 }
@@ -63,4 +64,40 @@ td {
 .gold {
     background-image: url(../images/gold.png);
     background-size: cover;
+}
+
+@media (max-width: 1500px) {
+    .game {
+        display: block;
+        position: relative;
+    }
+
+    .gameScore_Rules {
+        display: flex;
+        justify-content: space-between;
+        width: 645px;
+    }
+
+    .game__score {
+        position: absolute;
+        bottom: 410px;
+        left: 515px;
+        width: 178px;
+    }
+}
+
+@media (max-width: 1275px){
+    .game__score {
+        position: absolute;
+        left: 78px;
+        top: -158px;
+        width: 330px;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 0;
+    }
+    .title {
+        text-align: right;
+    }
 }

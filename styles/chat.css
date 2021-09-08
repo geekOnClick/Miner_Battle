@@ -1,5 +1,9 @@
+.chat {
+    max-width: 530px;
+    width: 100%;
+}
+
 .wrapper {
-    width: 810px;
     margin: 0 auto;
     margin-top: 33px;
     box-shadow: 0 0 10px 0 black;
