@@ -1,0 +1,44 @@
+.wrapper {
+    width: 810px;
+    margin: 0 auto;
+    margin-top: 33px;
+    box-shadow: 0 0 10px 0 black;
+    min-height: 84vh;
+    padding: 10px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.wrapper h3 {
+    text-align: center;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+[class^="error"]{
+    color: red;
+}
+
+.messages {
+    padding: 10px;
+    
+}
+
+.message {
+    background: lightblue;
+}
+
+.message:nth-child(n+2){
+    margin-top: 10px;
+}
+
+button, input {
+    font-size: inherit;
+    margin-top: 10px;
+}

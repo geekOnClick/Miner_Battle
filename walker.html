@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Miner Battle</title>
+    <link rel="icon" type= "image/png" href="images/test1.png">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/chat.css">
+</head>
+<body>
+<h2 class="title">Игра "Miner Battle"</h2>
+<div class="container">
+    <section class="game">
+    <div class="gameField"></div>
+    <div class="gameScore_Rules">
+        <div class="game__rules">
+            <p>Цель игры: добыть 10 золотых слитков быстрее соперника.</p>
+            <p>Текущий счет отражается на табло ниже.</p>
+            <p>Передвижение первого игрока осуществляется стрелкам "↑,↓,→,←" </p>
+            <p>Передвижение второго игрока осуществляется по клавишам "w,a,s,d"</p>
+            <p>При столкновении двух игроков, игрок, получивший удар, отправляется на клетку своего первоначального расположения.</p>
+            <p>Наведите мышку на чат, чтобы написать сообщение.</p>
+        </div>
+        <div class="game__score">
+            <h3>Текущий счет:</h3>
+            <p class="blue">Синий: <span class="blue_score">0</span></p>
+            <p class="red">Красный: <span class="red_score">0</span></p>
+        </div>
+    </div>
+    </section>
+    <section class="chat">
+        <div class="wrapper">
+            <h3>Игровой чат</h3>
+            <span class="noMessages">Сообщений нет.</span>
+            <div class="messages"></div>
+
+            <textarea placeholder="Сообщение"></textarea>
+            <div class="errorTextarea"></div>
+            <input type="text" placeholder="Ваше имя">
+            <div class="errorInput"></div>
+            <button class="send">Отправить</button>
+            <button class="clear">Очистить</button>
+        </div>
+    </section>
+</div>
+    <script src="package/dist/sweetalert2.all.js"></script>
+    <script src="scripts/config.js"></script>
+    <script src="scripts/player.js"></script>
+    <script src="scripts/gold.js"></script>
+    <script src="scripts/renderer.js"></script>
+    <script src="scripts/mover.js"></script>
+    <script src="scripts/chat.js"></script>
+    <script src="scripts/game.js"></script>
+
+</body>
+</html>

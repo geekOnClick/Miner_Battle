@@ -1,0 +1,66 @@
+html {
+    background: ghostwhite;
+    font-family: sans-serif;
+}
+
+.title {
+    font-size: 30px;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.game {
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gameScore_Rules {
+    width: 345px;
+}
+.game__score {
+    margin-top: 46px;
+    padding-left: 15px;
+    padding-top: 20px;
+    box-sizing: border-box;
+    height: 184px;
+    outline: 1px solid gray;
+}
+.game__score p {
+    font-size: 18px;
+}
+.blue {
+    color:rgb(41, 72, 207);
+}
+.red {
+    color: darkred;
+}
+table {
+    border-collapse: collapse;
+    background: rgb(162,101,62);
+}
+
+td {
+    width: 30px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+.user1 {
+    background-image: url(../images/test1.png);
+    background-size: cover;
+}
+
+.user2 {
+    background-image: url(../images/test2.png);
+    background-size: cover;
+}
+.gold {
+    background-image: url(../images/gold.png);
+    background-size: cover;
+}
