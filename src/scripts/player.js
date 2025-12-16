@@ -1,3 +1,5 @@
+import { config } from "./config";
+
 /**
  * Объект игрока1, здесь будут все свойства и методы с ним
  * x - позиция по X-координате
@@ -44,3 +46,4 @@ move(nextPoint) {
 
 }
 
+export {player1, player2}

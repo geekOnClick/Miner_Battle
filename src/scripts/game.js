@@ -1,4 +1,8 @@
 import { default as Swal } from "sweetalert2";
+import { gold } from "./gold";
+import { mover } from "./mover";
+import { player1, player2 } from "./player";
+import { renderer } from "./renderer";
 
 export const game = {
     // свойство для включения/отключения режима чата при наведении на чат. По умолчанию false. При активации чата, останавливается игра.

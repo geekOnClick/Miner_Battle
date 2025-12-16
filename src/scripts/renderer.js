@@ -1,4 +1,9 @@
-let renderer = {
+import { config } from "./config";
+import { game } from "./game";
+import { gold } from "./gold";
+import { player1, player2 } from "./player";
+
+export const renderer = {
     /**
      * Метод отрисовки (рендоринга) карты. Вызывывает метод отрисовки карты, отрисовывает сетку, отрисовывает новое/первоначальное расположение игроков и золота. Если метоположение игроков совпадает, вызывается метод game.showBoom. После отрисовки карты запускается метод проверки находится ли игрок на координатах золота game.isTakenGold
      * @param {object} currentPlayer Объект текущего игрока для отрисовки

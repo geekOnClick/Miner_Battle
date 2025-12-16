@@ -1,4 +1,6 @@
-let mover = {
+import { config } from "./config";
+
+export const mover = {
     /**
      * Отдает следующую точку, в которой будет находиться игрок
      * @param {int} key Значение нажатой клавиши
